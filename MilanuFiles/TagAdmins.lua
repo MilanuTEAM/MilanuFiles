@@ -2,7 +2,7 @@ local function TagAdmins(msg)
 local text = msg.content_.text_
 if ChatType == 'sp' or ChatType == 'gp'  then
 if Manager(msg) then
-if text == "all" or text == "@all" then
+if text == "تاك المشرفين" or text == "admin" then
 if DeAlsh:get(Milanu.."Alsh:TagAdmins:Time"..msg.chat_id_..':'..msg.sender_user_id_) then  
 De_Alsh(msg.chat_id_, msg.id_, 1, '⌁︙انتظر دقيقه بعد ارسال الامر', 1, 'md')
 return false  
